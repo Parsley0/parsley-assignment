@@ -1,0 +1,51 @@
+body{background-color:rgb(255, 106, 0);
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border: 2px solid rgb(249, 110, 10);
+    padding: 10px;
+  }
+h1{color: rgb(255, 123, 0);
+font-size: xx-large;
+text-align: center;
+text-decoration:underline;
+}
+h2{color: rgb(255, 123, 0);
+font-size: xx-large;
+text-align: center;
+text-decoration: underline;
+}
+.background{ background-image: url(Premium\ Vector\ _\ Curry\ dishes.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+text-align: justify;
+max-width:100%;
+}
+.ingredients{font-style: italic;
+}
+.image1 {float:right;
+}
+.image2 {float:right;
+}
+nav{overflow: hidden;
+    text-transform: uppercase;
+    display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+nav ul{list-style-type: none;
+    text-decoration:none;}
+    nav li{border-right: solid 2px bisque;
+    padding:6px 10px;float:left;
+  }
+    nav li a{font-weight: 500;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding:6px 10px;}
+    nav li a:hover{background-color: rgb(202, 255, 10);
+    }
+@media screen and (max-width: 640px) {
+  img{ width: 350px;}
+        
+      }
